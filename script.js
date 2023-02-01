@@ -53,7 +53,9 @@ for (const car of carManufacurer) {
 
 const moreCarManuf = ["renault", "skoda"];
 
-carManufacurer.splice(2, 0, moreCarManuf[1], moreCarManuf[0]);
+for (const car of moreCarManuf) {
+	carManufacurer.splice(2, 0, car);
+}
 
 console.log("splicey splicey:");
 
