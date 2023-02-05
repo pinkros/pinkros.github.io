@@ -49,7 +49,8 @@ Uppdraget innebär ett ta fram ett förslag åt företaget och måste inte inneh
 * Man ska på något sätt anropa ett öppet API för att hämta intressant information. 
     (tex väder, valuta-kurser eller annat som är relevant för sidan) 
     [Här finns publika apier](https://github.com/public-api-lists/public-api-lists)
-* Alla produkter/tjänster i listan (ej kundvagnen) ska kunna expanderas för att visa mer detaljerad information. Detta ska göras med hjälp av Modaler.
+* Alla produkter/tjänster i listan (ej kundvagnen) ska kunna expanderas för att visa mer detaljerad information. 
+  Detta ska göras med hjälp av Modaler.
 * Utöver detta så ska Performance, Accessability och Best Practices alla vara över 90% i Lighthouse på Desktop och Mobile. 
 
 ## Redovisning

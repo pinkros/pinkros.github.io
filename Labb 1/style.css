@@ -1,27 +1,70 @@
-main,
-footer {
+.row {
+	height: 100%;
+}
+main {
 	background-color: #b36715;
+	height: 100%;
 }
 #main-content {
 	justify-content: center;
 }
 
-nav {
+nav,
+footer {
 	background-color: #ff8604;
 }
 
 .nav-link {
 	font-weight: bold;
+	font-family: Comic Sans MS;
+
+	color: #691fff;
 }
 
 .current-page-link {
+	font-family: Comic Sans MS;
+
 	background-color: #b36715;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
 }
 
 h1,
 h2,
 h3 {
 	text-align: center;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Comic Sans MS;
 	font-weight: bold;
+}
+
+#footer-content {
+	text-align: center;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+	box-sizing: border-box;
+}
+
+/* full-sized  container that fills up the page */
+div {
+	height: 100%;
+	width: 100%;
 }
