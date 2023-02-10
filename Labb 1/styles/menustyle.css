@@ -1,0 +1,96 @@
+.row {
+  height: 100%;
+}
+main {
+  background-color: #b36715;
+  height: auto;
+  margin-bottom: 40px;
+}
+#main-content {
+  justify-content: center;
+}
+
+nav {
+  background-color: #ff8604;
+}
+footer {
+  background-color: #ff8604;
+  position: absolute;
+}
+.nav-link {
+  font-weight: bold;
+  font-family: Comic Sans MS;
+
+  color: #691fff;
+}
+.current-page-link {
+  font-family: Comic Sans MS;
+
+  background-color: #b36715;
+}
+.btn {
+  background-color: #691fff;
+  color: #1fff41;
+  font-family: Comic Sans MS;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Comic Sans MS;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  font-family: Comic Sans MS;
+}
+
+#footer-content {
+  text-align: center;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+}
+.card {
+  background-color: #ff8604;
+}
+.card-image {
+  justify-content: left;
+  height: 40%;
+  width: 40%;
+}
+.card-title,
+.card-text {
+  text-align: flex-end;
+}
+#address {
+  text-align: center;
+}
+
+.map {
+  margin-bottom: 10px;
+}
