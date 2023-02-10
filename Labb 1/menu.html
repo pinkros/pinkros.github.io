@@ -1,64 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Orange Cat eatery</title>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <head>
+    <title>Orange Cat eatery</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-		<!-- Bootstrap CSS v5.2.1 -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-			crossorigin="anonymous" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
 
-		<!--my css-->
-		<link rel="stylesheet" href="style.css" />
+    <!--my css-->
+    <link rel="stylesheet" href="styles/menustyle.css" />
 
-		<!-- Bootstrap JavaScript Libraries -->
-		<script
-			defer
-			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-			crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
-		<script
-			defer
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-			integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-			crossorigin="anonymous"></script>
-	</head>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-	<body>
-		<header>
-			<nav class="nav justify-content-center">
-				<a class="nav-link" href="index.html">Home</a>
-				<a class="nav-link text-black active current-page-link" href="#"
-					>Menu</a
-				>
-				<a class="nav-link" href="about.html">About</a>
-			</nav>
-		</header>
-		<main>
-			<div class="container">
-				<div class="row">
-					<div class="col-1"></div>
-					<div class="col-2">
-						<img src="images/pizza.png" alt="pizza" class="img-fluid" />
-					</div>
-					<div class="col-6">Second Column</div>
-					<div class="col-2"><p>the price is right</p></div>
-					<div class="col-1"></div>
-				</div>
-			</div>
-		</main>
-		<footer class="fixed-bottom">
-			<div>
-				<p id="footer-content">Pauwse&trade; 2023</p>
-			</div>
-		</footer>
-	</body>
+  <body>
+    <header>
+      <nav class="nav justify-content-center">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link text-black active current-page-link" href="#"
+          >Menu</a
+        >
+        <a class="nav-link" href="about.html">About</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-3"></div>
+
+          <div class="col-6">
+            <div class="card mb-2">
+              <div class="card-body">
+                <img
+                  id="item-image"
+                  src="images/pizza.png"
+                  alt="pizza"
+                  class="img-fluid card-image rounded float-start"
+                />
+                <div class="text-center">
+                  <h4 id="item-title" class="card-title">Garf Pizza</h4>
+                  <p id="description" class="card-text">
+                    Tomatosauce, cheese, pepperonis
+                  </p>
+                  <p id="price" class="card-text">5$</p>
+                  <button
+                    type="button"
+                    class="btn border-3 align-content-center"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2">
+              <div class="card-body">
+                <img
+                  src="images/catpuccino.png"
+                  alt="pizza"
+                  class="img-fluid card-image"
+                />
+                <h4 class="card-title">Catpuccino</h4>
+                <p class="card-text">Strong, bold espresso, floffed milk</p>
+              </div>
+            </div>
+            <div class="card mb-2">
+              <div class="card-body">
+                <img
+                  src="images/delicious-lasagna.png"
+                  alt="pizza"
+                  class="img-fluid card-image"
+                />
+                <h4 class="card-title">Delicious lasagna</h4>
+                <p class="card-text">
+                  Like your italian nonna has made it, Garfs favourite
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3"></div>
+        </div>
+      </div>
+      <div></div>
+    </main>
+    <footer class="fixed-bottom">
+      <div>
+        <p id="footer-content">Pauwse&trade; 2023</p>
+      </div>
+    </footer>
+  </body>
 </html>

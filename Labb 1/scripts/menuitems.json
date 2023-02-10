@@ -1,0 +1,28 @@
+{
+    "menu_items":[
+        {
+            "name": "Garf Pizza", 
+            "image": "images/pizza.png",
+            "description":"Tomatosauce, cheese, pepperonis",
+            "price": 5
+        },
+        {
+            "name": "Catpuccino", 
+            "image": "images/catpuccino.png",
+            "description":"Strong, bold espresso, floffed milk",
+            "price": 3
+        },
+        {
+            "name": "Delicious Lasagna", 
+            "image": "images/delicious-lasagna.png",
+            "description":"Like your italian nonna has made it, Garfs favourite",
+            "price": 10
+        },
+        {
+            "name": "Death by chocolate", 
+            "image": "images/chocolate.png",
+            "description":"Dark as your soul, kills your cat (and Odie)",
+            "price": 7
+        }
+    ]
+}
