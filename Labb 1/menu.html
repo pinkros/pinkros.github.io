@@ -37,6 +37,7 @@
   </head>
 
   <body>
+    <script src="/scripts/menuscripts.js"></script>
     <header>
       <nav class="nav justify-content-center">
         <a class="nav-link" href="index.html">Home</a>
@@ -50,60 +51,14 @@
       <div class="container">
         <div class="row">
           <div class="col-3"></div>
-
           <div class="col-6">
-            <div class="card mb-2">
-              <div class="card-body">
-                <img
-                  id="item-image"
-                  src="images/pizza.png"
-                  alt="pizza"
-                  class="img-fluid card-image rounded float-start"
-                />
-                <div class="text-center">
-                  <h4 id="item-title" class="card-title">Garf Pizza</h4>
-                  <p id="description" class="card-text">
-                    Tomatosauce, cheese, pepperonis
-                  </p>
-                  <p id="price" class="card-text">5$</p>
-                  <button
-                    type="button"
-                    class="btn border-3 align-content-center"
-                  >
-                    Add to cart
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-2">
-              <div class="card-body">
-                <img
-                  src="images/catpuccino.png"
-                  alt="pizza"
-                  class="img-fluid card-image"
-                />
-                <h4 class="card-title">Catpuccino</h4>
-                <p class="card-text">Strong, bold espresso, floffed milk</p>
-              </div>
-            </div>
-            <div class="card mb-2">
-              <div class="card-body">
-                <img
-                  src="images/delicious-lasagna.png"
-                  alt="pizza"
-                  class="img-fluid card-image"
-                />
-                <h4 class="card-title">Delicious lasagna</h4>
-                <p class="card-text">
-                  Like your italian nonna has made it, Garfs favourite
-                </p>
-              </div>
-            </div>
+            <ul id="menu" class="list-group"></ul>
           </div>
-          <div class="col-3"></div>
+          <div class="col-3">
+            <button class="btn" onclick="presentMenu()">TEST</button>
+          </div>
         </div>
       </div>
-      <div></div>
     </main>
     <footer class="fixed-bottom">
       <div>
