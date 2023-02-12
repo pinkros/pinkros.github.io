@@ -20,7 +20,7 @@
     <!--my css-->
     <link rel="stylesheet" href="styles/menustyle.css" />
 
-    <script defer src="scripts/menuscripts.js"></script>
+    <script defer src="scripts/site.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
@@ -61,36 +61,19 @@
               <div class="card-body">
                 <div class="table-responsive">
                   <table class="table">
-                    <tbody class="cart-items">
-                      <tr class="cart-row">
-                        <td scope="row" class="cart-item-name">Pizza</td>
-                        <td class="cart-qty">1</td>
-                        <td class="cart-price">5$</td>
-                        <td>
-                          <button class="btn removing-btn">Remove</button>
-                        </td>
-                      </tr>
-                      <tr class="cart-row">
-                        <td scope="row" class="cart-item-name">Lasagna</td>
-                        <td class="cart-qty">2</td>
-                        <td class="cart-price">10$</td>
-                        <td>
-                          <button type="button" class="btn removing-btn">
-                            Remove
-                          </button>
-                        </td>
-                      </tr>
-                    </tbody>
+                    <tbody class="cart-items"></tbody>
                   </table>
                 </div>
               </div>
               <div class="card-footer">
                 <div class="cart-total">
                   <h3>Total:</h3>
-                  <h4 class="cart-total-price">25$</h4>
+                  <h4 class="cart-total-price">0$</h4>
                 </div>
 
-                <button type="button" class="btn">Checkout</button>
+                <button type="button" class="btn" onclick="checkoutButton()">
+                  Checkout
+                </button>
               </div>
             </div>
           </div>

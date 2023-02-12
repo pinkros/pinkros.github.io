@@ -93,7 +93,7 @@ function displayMenuItems() {
     image.src = menuItem.image;
     title.innerText = menuItem.name;
     description.innerText = menuItem.description;
-    price.innerText = `${menuItem.price}$`;
+    price.innerText = `$${menuItem.price}`;
     button.innerText = "Add To Cart";
 
     //lägga till element i DOM
@@ -124,17 +124,19 @@ function addToCartClicked(event) {
 
 function addItemToCart(title, price) {
   const cartItems = document.getElementsByClassName("cart-items")[0];
-let hasUpdated = 0;
-  for (const item of cartItems.getElementsByClassName("cart-item-name")) {
+  let hasUpdated = 0;
 
-    if(item.innerText == title){
+  for (const item of cartItems.getElementsByClassName("cart-item-name")) {
+    if (item.innerText == title) {
       const itemRow = item.parentElement;
-      parseInt(itemRow.getElementsByClassName("cart-qty")[0].innerText)++;
+      const newQty =
+        parseInt(itemRow.getElementsByClassName("cart-qty")[0].innerText) + 1;
+      itemRow.getElementsByClassName("cart-qty")[0].innerText = newQty;
       updateCartTotal();
-       hasUpdated++;
+      hasUpdated++;
     }
-    
   }
+
   if (hasUpdated == 0) {
     //Elements
     const cartRow = document.createElement("tr");
@@ -152,26 +154,14 @@ let hasUpdated = 0;
     //innehåll i element
     itemName.innerText = title;
     itemQty.innerText = 1;
-    itemPrice.innerText = `$${price}`;
+    itemPrice.innerText = `${price}`;
     button.innerText = "Remove";
     //lägga till element i DOM
     buttonContainer.append(button);
     cartRow.append(itemName, itemQty, itemPrice, buttonContainer);
     cartItems.appendChild(cartRow);
+    ready();
   }
-}
-
-{
-  /* <tr class="cart-row">
-                        <td scope="row" class="cart-item-name">Pizza</td>
-                        <td class="cart-qty">1</td>
-                        <td class="cart-price">5$</td>
-                        <td>
-                          <button type="button" class="btn removing-btn">
-                            Remove
-                          </button>
-                        </td>
-                      </tr> */
 }
 
 function updateCartTotal() {
@@ -188,4 +178,19 @@ function updateCartTotal() {
   }
   document.getElementsByClassName("cart-total-price")[0].innerText =
     "$" + total;
+}
+
+function checkoutButton() {
+  const cart = document.getElementsByClassName("cart-items")[0];
+  const totalPrice =
+    document.getElementsByClassName("cart-total-price")[0].innerText;
+
+  while (cart.childElementCount > 0) {
+    cart.children[0].remove();
+  }
+  updateCartTotal();
+  const checkOutMsg = document.createElement("p");
+  checkOutMsg.innerText = `Thank you for shopping at Eats! 
+  Your total is: ${totalPrice}`;
+  cart.append(checkOutMsg);
 }
