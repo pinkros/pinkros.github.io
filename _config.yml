@@ -70,8 +70,7 @@ content:
         quote: >
           A class library for the purpose of validation and conversion of [NCCSV-files](https://coastwatch.pfeg.noaa.gov/erddap/download/NCCSV.html)
         description: | # this will include new lines to allow paragraphs
-          As a part of our internship at [SND](https://snd.gu.se/en/about-us), the Swedish National Data Service, we developed a class library to help validate and parse NCCSV-files. 
-          The library is meant to be implemented into other projects, as a way to make NCCSV more accessible.
+          As a part of our internship at [SND](https://snd.gu.se/en/about-us), the Swedish National Data Service, we developed a class library to help validate and parse NCCSV-files. The library is meant to be implemented into other projects, as a way to make NCCSV more accessible.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
