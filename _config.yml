@@ -84,8 +84,8 @@ content:
         quote: >
           Delivered software, invoices and sales support whilst wrestling with SAP
         description: | # this will include new lines to allow paragraphs
-        As a part of the customer service team in Wolters Kluwer, I juggled order and invoice processing with answering customer mail and helping the sales team make sales that complied with the technical limitation of our SAP-solution and surrounding delivery systems. We sold software for bookkeeping and the tricky part of having a slightly older system for supplying the customer with the promised programs. It required <mark>clear communication</mark> both internally and externally to make sure both the customers and colleagues were content, despite long delivery times due to technichal limitations.
-        Currently on unpaid leave for studies.
+          As a part of the customer service team in Wolters Kluwer, I juggled order and invoice processing with answering customer mail and helping the sales team make sales that complied with the technical limitation of our SAP-solution and surrounding delivery systems. We sold software for bookkeeping and the tricky part of having a slightly older system for supplying the customer with the promised programs. It required <mark>clear communication</mark> both internally and externally to make sure both the customers and colleagues were content, despite long delivery times due to technichal limitations.
+          Currently on unpaid leave for studies.
 
       - layout: right
         title: NBV
@@ -94,13 +94,13 @@ content:
         quote: >
           Website management for the good of folkbildning (popular adult education)
         description: | # this will include new lines to allow paragraphs
-        A temporary post at [Nykterhetsrörelsens Bildningverksamhet](https://www.nbv.se/vi-ar-nbv/om-oss/), one of Swedens [ten education associations](https://www.folkuniversitetet.se/in-english/about-folkuniversitetet/what-is-folkbildning/) where I got a temporary job to do a variety of tasks:
-        * Made a classification system for their book collection
-        * Helped move data from their old intranet to their new <mark>Sharepoint</mark> solution
-        * Administrated their external <mark>epi-server</mark> website
-        * Helped organize their attendance at [Almedalsveckan](https://www.almedalsveckan.info/english):
-          * I was responsible for the scheduling of the different member organizations presentation slots at NBV's tent
-          * Booked place and refreshments for NBV's own presentations
+          A temporary post at [Nykterhetsrörelsens Bildningverksamhet](https://www.nbv.se/vi-ar-nbv/om-oss/), one of Swedens [ten education associations](https://www.folkuniversitetet.se/in-english/about-folkuniversitetet/what-is-folkbildning/) where I got a temporary job to do a variety of tasks:
+          * Made a classification system for their book collection
+          * Helped move data from their old intranet to their new <mark>Sharepoint</mark> solution
+          * Administrated their external <mark>epi-server</mark> website
+          * Helped organize their attendance at [Almedalsveckan](https://www.almedalsveckan.info/english):
+            * I was responsible for the scheduling of the different member organizations presentation slots at NBV's tent
+            * Booked place and refreshments for NBV's own presentations
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -126,8 +126,8 @@ content:
         quote: >
           Leadership and project management
         description: | # this will include new lines to allow paragraphs
-        A one year course focused on practical <mark>leadership</mark> and <mark>project management</mark>, where I learned skills and frameworks such as the <mark>FIRO theory</mark>, <mark>Theatre of the Oppresed</mark> and <mark>motivational interviewing (MI)</mark>. All moments were very focused on practical experience, and were taught both by the use of thatre and dramatic reenaction or bu getting put in real situations. 
-        Among other things we got to be responsible for a two day education for about 70 12-year-old students focused on the prevention of alcohol use, drug use and gambling. We also planned and held a party for the whole school of about 200 students.
+          A one year course focused on practical <mark>leadership</mark> and <mark>project management</mark>, where I learned skills and frameworks such as the <mark>FIRO theory</mark>, <mark>Theatre of the Oppresed</mark> and <mark>motivational interviewing (MI)</mark>. All moments were very focused on practical experience, and were taught both by the use of thatre and dramatic reenaction or bu getting put in real situations. 
+          Among other things we got to be responsible for a two day education for about 70 12-year-old students focused on the prevention of alcohol use, drug use and gambling. We also planned and held a party for the whole school of about 200 students.
 
       - layout: left
         title: Nyköpings Enskilda Gymnasium
@@ -138,7 +138,7 @@ content:
         quote: >
           Social studies and STEM
         description: | # this will include new lines to allow paragraphs
-        I went to Nyköpings Enskilda Gymnasium for my senior high school education. The programme I attended was quite uniqe in that it  both social studies and STEM, and it has given me a wide theoretical basis for my thinking. Among the courses included were both *Psychology*, *Philosophy* and *French*, as well as with advanced *Chemistry*, *Physics* and *Math* (including *trigonometry*, *algebra* and *integrals*).
+          I went to Nyköpings Enskilda Gymnasium for my senior high school education. The programme I attended was quite uniqe in that it  both social studies and STEM, and it has given me a wide theoretical basis for my thinking. Among the courses included were both *Psychology*, *Philosophy* and *French*, as well as with advanced *Chemistry*, *Physics* and *Math* (including *trigonometry*, *algebra* and *integrals*).
 
   - title: A Little More About Me
     layout: text
@@ -150,7 +150,6 @@ content:
       - Reading great books
       - Music, both going to concerts and finding new bands/artists
       - [These cats](https://cache.smolnet.org/media_attachments/files/108/281/654/393/861/545/small/c8852ab01e6fc6d8.jpg)
-      
 
 # Footer
 footer_show_references: true
