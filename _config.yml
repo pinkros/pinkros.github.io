@@ -68,9 +68,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          A class library for the purpose of validation and conversion of [NCCSV-files](https://coastwatch.pfeg.noaa.gov/erddap/download/NCCSV.html)
+          A class library for the purpose of validation and conversion of NCCSV-files
         description: | # this will include new lines to allow paragraphs
-          As a part of our internship at [SND](https://snd.gu.se/en/about-us), the Swedish National Data Service, we developed a class library to help validate and parse NCCSV-files. The library is meant to be implemented into other projects, as a way to make NCCSV more accessible.
+          As a part of our internship at [SND](https://snd.gu.se/en/about-us), the Swedish National Data Service, we developed a class library to help validate and parse [NCCSV-files](https://coastwatch.pfeg.noaa.gov/erddap/download/NCCSV.html). The library is meant to be implemented into other projects, as a way to make NCCSV more accessible.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -84,16 +84,24 @@ content:
         quote: >
           Delivered software, invoices and sales support whilst wrestling with SAP
         description: | # this will include new lines to allow paragraphs
+        As a part of the customer service team in Wolters Kluwer, I juggled order and invoice processing with answering customer mail and helping the sales team make sales that complied with the technical limitation of our SAP-solution and surrounding delivery systems. We sold software for bookkeeping and the tricky part of having a slightly older system for supplying the customer with the promised programs. It required <mark>clear communication</mark> both internally and externally to make sure both the customers and colleagues were content, despite long delivery times due to technichal limitations.
 
-      - layout: left
-        title: Wolters Kluwer Scandinavia
-        link: https://www.wolterskluwer.com/sv-se
-        link_text: wolterskluwer.com
-        sub_title: Order Processing Representative
-        caption: January 2020 - current
+        Currently on unpaid leave for studies.
+
+      - layout: right
+        title: NBV
+        sub_title: Organizational developer
+        caption: January 2014 - December 2014
         quote: >
-          Delivered software, invoices and sales support whilst wrestling SAP
+          Website management for the good of folkbildning (popular adult education)
         description: | # this will include new lines to allow paragraphs
+        A temporary post at [Nykterhetsrörelsens Bildningverksamhet](https://www.nbv.se/vi-ar-nbv/om-oss/), one of Swedens [ten education associations](https://www.folkuniversitetet.se/in-english/about-folkuniversitetet/what-is-folkbildning/) where I got a temporary job to do a variety of tasks:
+        * Made a classification system for their book collection
+        * Helped move data from their old intranet to their new <mark>Sharepoint</mark> solution
+        * Administrated their external <mark>epi-server</mark> website
+        * Helped organize their attendance at [Almedalsveckan](https://www.almedalsveckan.info/english):
+          * I was responsible for the scheduling of the different member organizations presentation slots at NBV's tent
+          * Booked place and refreshments for NBV's own presentations
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,30 +110,54 @@ content:
         title: IT-Högskolan
         link: https://www.iths.se/
         link-text: iths.se
-        caption: 2022 - 2024
+        caption: August 2022 - May 2024
         sub_title: .NET-developer
         quote: >
           Your IT-career begins here!
         description: | # this will include new lines to allow paragraphs
           A [Higher Vocational Education](https://www.yrkeshogskolan.se/in-english/) with the purpose of quickly making it's students into full-fledged developers. I learned such skills as <mark>C#</mark>, database development with both <mark>SQL</mark> and <mark>NoSQL</mark>, web development with <mark>HTML</mark>, <mark>JavaScript</mark> and <mark>Blazor</mark>, working in projects with <mark>SCRUM</mark> among other things.
 
-          I was elected class representative to be part of the *Education board* and was responsible for the class' shared *coffee fund*.
+          I was elected class representative to be part of the **Education board*** and was responsible for the class' shared ***coffee fund**.
+
+      - layout: right
+        title: Wendelsbergs folkhögskola
+        link: https://wendelsberg.se/english/
+        link-text: wendelsberg.se
+        caption: August 2010 - June 2011
+        sub_title: Projektbildaren
+        quote: >
+          Leadership and project management
+        description: | # this will include new lines to allow paragraphs
+        A one year course focused on practical <mark>leadership</mark> and <mark>project management</mark>, where I learned skills and frameworks such as the <mark>FIRO theory</mark>, <mark>Theatre of the Oppresed</mark> and <mark>motivational interviewing (MI)</mark>. All moments were very focused on practical experience, and were taught both by the use of thatre and dramatic reenaction or bu getting put in real situations. 
+        
+        Among other things we got to be responsible for a two day education for about 70 12-year-old students focused on the prevention of alcohol use, drug use and gambling. We also planned and held a party for the whole school of about 200 students.
+
+      - layout: left
+        title: Nyköpings Enskilda Gymnasium
+        link: https://www.nykopingsenskilda.se/
+        link-text: nykopingsenskilda.se
+        caption: August 2007 - June 2010
+        sub_title: Senior High School
+        quote: >
+          Social studies and STEM
+        description: | # this will include new lines to allow paragraphs
+        I went to Nyköpings Enskilda Gymnasium for my senior high school education. The programme I attended was quite uniqe in that it  both social studies and STEM, and it has given me a wide theoretical basis for my thinking. Among the courses included were both *Psychology*, *Philosophy* and *French*, as well as with advanced *Chemistry*, *Physics* and *Math* (including *trigonometry*, *algebra* and *integrals*).
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in software development some of my other interests and hobbies are:
+      - Working out
+      - Playing Magic: the Gathering
+      - Food, both eating at restaurants and cooking at home
+      - Reading great books
+      - Music, both going to concerts and finding new bands/artists
+      - [These cats](https://cache.smolnet.org/media_attachments/files/108/281/654/393/861/545/small/c8852ab01e6fc6d8.jpg)
+      
 
 # Footer
 footer_show_references: true
-references_title: References on request (Override references text)
+references_title: References on request
 
 # Build settings
 remote_theme: sproogen/resume-theme
