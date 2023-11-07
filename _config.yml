@@ -85,7 +85,6 @@ content:
           Delivered software, invoices and sales support whilst wrestling with SAP
         description: | # this will include new lines to allow paragraphs
         As a part of the customer service team in Wolters Kluwer, I juggled order and invoice processing with answering customer mail and helping the sales team make sales that complied with the technical limitation of our SAP-solution and surrounding delivery systems. We sold software for bookkeeping and the tricky part of having a slightly older system for supplying the customer with the promised programs. It required <mark>clear communication</mark> both internally and externally to make sure both the customers and colleagues were content, despite long delivery times due to technichal limitations.
-
         Currently on unpaid leave for studies.
 
       - layout: right
@@ -116,7 +115,6 @@ content:
           Your IT-career begins here!
         description: | # this will include new lines to allow paragraphs
           A [Higher Vocational Education](https://www.yrkeshogskolan.se/in-english/) with the purpose of quickly making it's students into full-fledged developers. I learned such skills as <mark>C#</mark>, database development with both <mark>SQL</mark> and <mark>NoSQL</mark>, web development with <mark>HTML</mark>, <mark>JavaScript</mark> and <mark>Blazor</mark>, working in projects with <mark>SCRUM</mark> among other things.
-
           I was elected class representative to be part of the **Education board*** and was responsible for the class' shared ***coffee fund**.
 
       - layout: right
@@ -129,7 +127,6 @@ content:
           Leadership and project management
         description: | # this will include new lines to allow paragraphs
         A one year course focused on practical <mark>leadership</mark> and <mark>project management</mark>, where I learned skills and frameworks such as the <mark>FIRO theory</mark>, <mark>Theatre of the Oppresed</mark> and <mark>motivational interviewing (MI)</mark>. All moments were very focused on practical experience, and were taught both by the use of thatre and dramatic reenaction or bu getting put in real situations. 
-        
         Among other things we got to be responsible for a two day education for about 70 12-year-old students focused on the prevention of alcohol use, drug use and gambling. We also planned and held a party for the whole school of about 200 students.
 
       - layout: left
