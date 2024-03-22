@@ -10,7 +10,6 @@ name: Arvid Leimar
 title: .NET developer
 email: arvid@leimar.se
 website: www.github.com/pinkros
-image: [Arvid Leimar - development and leadership combined](images/arvid-leimar-high-resolution-logo-transparent.png "Logo")
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -46,7 +45,7 @@ linkedin_username: arvid-leimar-742212a3
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: ![Arvid Leimar - development and leadership combined](images/arvid-leimar-high-resolution-logo-transparent.png "Logo")
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Arvid, and I'm currently trying to become a developer. I am attending a course as a .NET developer and will soon be ready for actual jobs.
