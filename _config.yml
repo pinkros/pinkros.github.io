@@ -10,6 +10,7 @@ name: Arvid Leimar
 title: .NET developer
 email: arvid@leimar.se
 website: www.github.com/pinkros
+image: [Arvid Leimar - development and leadership combined](images/arvid-leimar-high-resolution-logo-transparent.png "Logo")
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -115,7 +116,7 @@ content:
           Your IT-career begins here!
         description: | # this will include new lines to allow paragraphs
           A [Higher Vocational Education](https://www.yrkeshogskolan.se/in-english/) with the purpose of quickly making it's students into full-fledged developers. I learned such skills as <mark>C#</mark>, database development with both <mark>SQL</mark> and <mark>NoSQL</mark>, web development with <mark>HTML</mark>, <mark>JavaScript</mark> and <mark>Blazor</mark>, working in projects with <mark>SCRUM</mark> among other things.
-          I was elected class representative to be part of the **Education board*** and was responsible for the class' shared ***coffee fund**.
+          I was elected class representative to be part of the **Education board** and was responsible for the class' shared **coffee fund**.
 
       - layout: right
         title: Wendelsbergs folkhögskola
