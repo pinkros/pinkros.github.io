@@ -76,13 +76,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Internship at [SND](https://snd.gu.se/en/about-us) and [Fore development](https://fore.dev/)
-        caption: SND August - November 2023, Fore Development January 2024 - April 2024
+        title: Internship at SND and Fore Development
+        caption: SND August - November 2023, Fore Development January - April 2024
         sub_title: Intern
         quote: >
           Tried my hand at .NET-development with different projects
         description: | # this will include new lines to allow paragraphs
-          During my internship at SND I worked on a class library for the validation and conversion of NCCSV-files. At Fore Development I got to work on different projects, both for their homepage and with their client Ntricity who specializes in electricity. I got to work with <mark>SEO</mark>, <mark>React.js</mark>, <mark>SQL</mark> databases and <mark>Git</mark>.
+          During my internship at [SND](https://snd.gu.se/en/about-us) I worked on a class library for the validation and conversion of NCCSV-files. At [Fore development](https://fore.dev/) I got to work on different projects at Fore Development, both for their homepage and with their client Ntricity who specializes in electricity. I got to work with <mark>React.js</mark>, <mark>SQL</mark> databases and <mark>Git</mark>.
 
       - layout: right
         title: Wolters Kluwer Scandinavia
